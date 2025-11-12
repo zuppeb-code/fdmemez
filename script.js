@@ -1,4 +1,4 @@
-const VOTE_ENDPOINT = "https://script.google.com/macros/s/AKfycbyEwhqElwKlLrP_kyAT6vADZGi7Xmaou-LRTGO4LyqIU7ZYBQv881B0N76k-efcQulZ/exec"; // es. https://script.google.com/macros/s/XXXX/exec
+const VOTE_ENDPOINT = "https://script.google.com/macros/s/AKfycbw3orkATe6Jx-3F3ki_YcWilrKT7Qoe5bTQbQGCAuLxk36sEiypizKepoy3QDHzRxmN/exec"; // es. https://script.google.com/macros/s/XXXX/exec
 
 async function loadMatch() {
   const params = new URLSearchParams(window.location.search);
