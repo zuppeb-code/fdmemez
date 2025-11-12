@@ -1,0 +1,7 @@
+body { font-family: Arial, sans-serif; text-align: center; background: #f9f4ff; margin:0; padding:20px;}
+.duel { display:flex; gap:20px; justify-content:center; flex-wrap:wrap; }
+.video { width:45%; background:#fff; padding:12px; border-radius:10px; box-shadow:0 6px 18px rgba(0,0,0,0.06); }
+video { width:100%; height:auto; border-radius:8px; }
+button { margin-top:10px; padding:10px; border-radius:8px; border:0; width:100%; background:#ff69b4; color:#fff; font-weight:700; cursor:pointer;}
+#message{margin-top:12px;font-weight:600;}
+@media(max-width:800px){ .video{width:100%} }
